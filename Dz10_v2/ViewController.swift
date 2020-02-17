@@ -9,12 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var switchForViews: UISwitch!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func showSecondView(_ sender: Any) {
+        if switchForViews.isOn {
+        let titleForSecView = textField.text
+        let secView = storyboard?.instantiateViewController(identifier: "SecondViewController")
+        navigationController?.pushViewController(secView!, animated: true)
+        secView?.title = titleForSecView
+        } else {
+            let titleForSecView = textField.text
+            let secView = storyboard?.instantiateViewController(identifier: "SecondViewController")
+            secView?.title = titleForSecView
+            present(secView!, animated: true, completion: nil)
+        }
+        
+        
+    
 }
-
+}
