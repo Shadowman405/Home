@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CE55D39B-78BA-4E08-8535-C9E8676729A5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D35685E-5D01-408F-8E39-B1190544C052"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dz12/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2D35685E-5D01-408F-8E39-B1190544C052 - a8a220a402134cdc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.secondGreenView.getter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "2D35685E-5D01-408F-8E39-B1190544C052 - 2e2b6b9241292ad0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.secondGreenView.setter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "2D35685E-5D01-408F-8E39-B1190544C052 - b47ebe7ffafc2563"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.secondGreenView.modify : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "2D35685E-5D01-408F-8E39-B1190544C052 - 459c181cb2901474"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.secondGreenView.modify : Swift.Optional&lt;__C.UIView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "2D35685E-5D01-408F-8E39-B1190544C052 - 1486ecabdc5fc912"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Dz12.ViewController"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "2D35685E-5D01-408F-8E39-B1190544C052 - b9590e18e36d511"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Dz12.ViewController&gt;"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "435">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38E3455B-9758-4F07-BE5A-17F97279B55E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dz12/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "38E3455B-9758-4F07-BE5A-17F97279B55E - 702bded610b4c9a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.redView.getter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "38E3455B-9758-4F07-BE5A-17F97279B55E - 8adf0f128fd4d48e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.redView.setter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "38E3455B-9758-4F07-BE5A-17F97279B55E - c3a925b8eda32699"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.redView.modify : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "38E3455B-9758-4F07-BE5A-17F97279B55E - 936a20858f876f09"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.redView.modify : Swift.Optional&lt;__C.UIView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "38E3455B-9758-4F07-BE5A-17F97279B55E - 1486ecabdc5fc912"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Dz12.ViewController"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "338">
+               </Location>
+               <Location
+                  uuid = "38E3455B-9758-4F07-BE5A-17F97279B55E - b9590e18e36d511"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dz12.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Dz12.ViewController&gt;"
+                  moduleName = "Dz12"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Desktop/Dz/Dz12/Dz12/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "275">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
