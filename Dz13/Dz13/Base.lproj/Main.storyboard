@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tny-px-KFj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dz13" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bird" translatesAutoresizingMaskIntoConstraints="NO" id="rbf-v3-p0p">
+                                <rect key="frame" x="87" y="358" width="240" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="U5Z-2I-Ln4"/>
+                                    <constraint firstAttribute="width" constant="240" id="Whq-0m-Fwf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2o-ui-T8e">
+                                <rect key="frame" x="87" y="603" width="70" height="35"/>
+                                <color key="backgroundColor" red="0.4223249302" green="1" blue="0.65318249510000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="ib5-CP-Ctq"/>
+                                    <constraint firstAttribute="height" constant="35" id="z0R-QO-rHZ"/>
+                                </constraints>
+                                <state key="normal" title="Left"/>
+                                <connections>
+                                    <action selector="leftButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9f5-px-H7f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyR-nI-PRA">
+                                <rect key="frame" x="257" y="603" width="70" height="35"/>
+                                <color key="backgroundColor" red="0.4223249302" green="1" blue="0.65318249510000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Right"/>
+                                <connections>
+                                    <action selector="rightButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JcN-Ro-6Jd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="rbf-v3-p0p" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Ejp-vT-te5"/>
+                            <constraint firstItem="A2o-ui-T8e" firstAttribute="top" secondItem="rbf-v3-p0p" secondAttribute="bottom" constant="55" id="JFF-5T-phu"/>
+                            <constraint firstItem="dyR-nI-PRA" firstAttribute="top" secondItem="rbf-v3-p0p" secondAttribute="bottom" constant="55" id="Nsf-Wd-x5E"/>
+                            <constraint firstItem="A2o-ui-T8e" firstAttribute="height" secondItem="dyR-nI-PRA" secondAttribute="height" id="XYr-7r-h1V"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dyR-nI-PRA" secondAttribute="trailing" constant="87" id="aXQ-OB-FaI"/>
+                            <constraint firstItem="A2o-ui-T8e" firstAttribute="width" secondItem="dyR-nI-PRA" secondAttribute="width" id="bmE-gz-JDB"/>
+                            <constraint firstItem="rbf-v3-p0p" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="d3z-5j-Dfe"/>
+                            <constraint firstItem="A2o-ui-T8e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="kMC-gW-mUA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="rbf-v3-p0p" id="ull-39-aKt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-110" y="118"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="oRf-R5-tP4">
+            <objects>
+                <viewController storyboardIdentifier="SecondViewController" id="tny-px-KFj" customClass="SecondViewController" customModule="Dz13" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xMw-cr-Xja">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u7S-9P-DUE">
+                                <rect key="frame" x="20" y="44" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bwz-x1-Vsb" appends="YES" id="MJd-Zv-83F"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0df-c5-Jbq">
+                                <rect key="frame" x="157" y="44" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jNO-eg-aXv" appends="YES" id="r85-wI-G7f"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pOi-5A-AzQ">
+                                <rect key="frame" x="294" y="44" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ur4-AC-0Hu" appends="YES" id="bDj-HA-wiw"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="nBo-5S-882"/>
+                    </view>
+                    <connections>
+                        <outlet property="blueView" destination="pOi-5A-AzQ" id="kdI-II-r7r"/>
+                        <outlet property="orangeView" destination="0df-c5-Jbq" id="Ufo-h1-hks"/>
+                        <outlet property="redView" destination="u7S-9P-DUE" id="Cli-lC-QYL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YeP-C9-ZU9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ur4-AC-0Hu" userLabel="BlueViewTap">
+                    <connections>
+                        <action selector="blueTap:" destination="tny-px-KFj" id="IaM-T9-Stx"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="jNO-eg-aXv" userLabel="OrangeViewTap">
+                    <connections>
+                        <action selector="orangeTap:" destination="tny-px-KFj" id="lhm-Wl-Kch"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="bwz-x1-Vsb" userLabel="RedViewTap">
+                    <connections>
+                        <action selector="redView:" destination="tny-px-KFj" id="hj3-58-G2k"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="915.94202898550736" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bird" width="745" height="890"/>
+    </resources>
+</document>
