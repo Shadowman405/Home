@@ -13,9 +13,6 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var orangeView: UIView!
     @IBOutlet weak var blueView: UIView!
     
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -81,5 +78,4 @@ class SecondViewController: UIViewController {
             }
         }
     }
-    
 }

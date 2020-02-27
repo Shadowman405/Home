@@ -46,7 +46,7 @@ class ViewController: UIViewController {
             imagePhoto.image = imagesCollection[next1]
             self.next1 += 1
         } else {
-            next1 = 4
+            next1 = 0
         }
         print(next1)
     }
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
     }
 //Tap Gester----------------
     @IBAction func tap(_ sender: Any) {
-        performSegue(withIdentifier: "present", sender: imagePhoto.image)
+        performSegue(withIdentifier: "present", sender: nil )
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
