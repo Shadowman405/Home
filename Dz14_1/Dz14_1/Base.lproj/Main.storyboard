@@ -12,18 +12,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dz14_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty" translatesAutoresizingMaskIntoConstraints="NO" id="H5W-dd-L3b">
-                                <rect key="frame" x="87" y="108" width="240" height="120"/>
+                                <rect key="frame" x="87" y="20" width="240" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="QLT-W8-QtD"/>
                                     <constraint firstAttribute="height" constant="120" id="vAX-IC-pFw"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CY9-ku-3fK">
-                                <rect key="frame" x="20" y="258" width="130" height="30"/>
+                                <rect key="frame" x="20" y="170" width="130" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="Oq7-9w-RB5"/>
@@ -34,7 +34,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBC-h1-PiM">
-                                <rect key="frame" x="20" y="308" width="130" height="30"/>
+                                <rect key="frame" x="20" y="220" width="130" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="NBq-Mk-Zik"/>
@@ -45,7 +45,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wsd-42-GNr">
-                                <rect key="frame" x="164" y="258" width="230" height="30"/>
+                                <rect key="frame" x="164" y="170" width="230" height="30"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="54F-NR-aDG"/>
@@ -56,7 +56,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pp1-mV-0VX">
-                                <rect key="frame" x="164" y="308" width="230" height="30"/>
+                                <rect key="frame" x="164" y="220" width="230" height="30"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="230" id="Weu-e2-VvV"/>
@@ -67,7 +67,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFy-L2-pfm">
-                                <rect key="frame" x="142" y="378" width="130" height="35"/>
+                                <rect key="frame" x="142" y="290" width="130" height="35"/>
                                 <color key="backgroundColor" red="1" green="0.85481165189999997" blue="0.097815482819999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="J66-ae-GtD"/>
@@ -120,6 +120,7 @@
                                 <state key="normal" title="Close"/>
                                 <connections>
                                     <action selector="closeButton:" destination="Ibj-AP-iFk" eventType="touchUpInside" id="fqE-6m-4Vg"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="P0s-CH-BnV"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter first name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="43i-FG-ivg">
@@ -203,4 +204,8 @@
     <resources>
         <image name="empty" width="240" height="240"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Bch-wm-fe2"/>
+        <segue reference="P0s-CH-BnV"/>
+    </inferredMetricsTieBreakers>
 </document>

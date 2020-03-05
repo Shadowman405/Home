@@ -36,10 +36,11 @@ class ViewController: UIViewController, AccCreationViewControllerDelegate {
         firstNameLabel.text = text
         lastNameLabel.text = lastname
         sexForImage = sex
+        
     }
     
     func imageChange () {
-        if sexForImage.startIndex <= 0 {
+        if sexForImage.startIndex == 0 {
             imageForUser.image = UIImage(named: "male")
         }; if sexForImage.startIndex == 1 {
             imageForUser.image = UIImage(named: "female")
