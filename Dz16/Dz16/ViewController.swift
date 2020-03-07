@@ -8,16 +8,23 @@
 
 import UIKit
 
+var photos = PhotoAdd.photo()
+
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
-    var photos = PhotoAdd.photo()
+    
+ //   var photos = PhotoAdd.photo()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         tableView.dataSource = self
-    }
+        
+    NotificationCenter.default.addObserver(self, selector: #selector(loadList), name: NSNotification.Name(rawValue: "load"), object: nil)
+        }
 
+    @objc func loadList(notification: NSNotification){
+            self.tableView.reloadData()
+    }
 }
 //-------------------------------------------
 extension ViewController: UITableViewDataSource {

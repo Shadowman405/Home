@@ -13,7 +13,7 @@ class PhotoTableViewCell: UITableViewCell {
     @IBOutlet private weak var photoLabel: UILabel!
     
     func set(photos: PhotoAdd){
-        photoImage.image = UIImage(named: photos.imageName)
+        photoImage.image = photos.imageName
         photoLabel.text = photos.name
     }
 }

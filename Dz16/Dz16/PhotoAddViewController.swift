@@ -10,41 +10,31 @@ import UIKit
 
 class PhotoAddViewController: UIViewController,
                 UIImagePickerControllerDelegate,
-                UINavigationControllerDelegate {
-    
+                UINavigationControllerDelegate,UITableViewDelegate {
     @IBOutlet weak var textFiled: UITextField!
     @IBOutlet weak var imageViewAdding: UIImageView!
-    
     let pickerController = UIImagePickerController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         pickerController.delegate = self
+        
+
     }
 //Add Button---------------------------------------------------
     @IBAction func addButton(_ sender: Any) {
         pickerController.allowsEditing = false
         pickerController.sourceType = .photoLibrary
-        
         present(pickerController, animated: true, completion: nil)
     }
 //Save Button---------------------------------------------------
     @IBAction func saveButton(_ sender: Any) {
-        /*
-        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-            if let asset = info[UIImagePickerControllerPHAsset] as? PHAsset {
-                if let fileName = (asset.value(forKey: "filename")) as? String {
-                  print(\(fileName))
-                }
-            }
-        }
-        */
-  //      var textSave = textFiled.text ?? ""
-    //    var imageSave = imageViewAdding.image!
-      //  var newPhoto = PhotoAdd(name: textSave, imageName: String(imageSave) )
+        var imageFrom = imageViewAdding.image!
+        var textFor = textFiled.text!
+        var objectToSave = PhotoAdd(name: textFor, imageName: imageFrom)
+        photos.append(objectToSave)
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)
     }
-    
 //Picker Controller Choose Image and Dismiss----------------------------------------------
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let image = info[.originalImage] as? UIImage {
